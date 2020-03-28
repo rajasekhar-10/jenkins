@@ -1,5 +1,5 @@
 #!/bin/bash
 echo "Script Inside Github Repo"
-SUM=$(($NUMONE + $NUMTWO))
+UM=$(($NUMONE + $NUMTWO))
 echo "Sum is $SUM"
 echo "Script Executed"

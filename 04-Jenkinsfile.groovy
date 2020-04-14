@@ -15,7 +15,7 @@ pipeline {
             junit 'target/surefire-reports/*.xml'
          }
       }
-      stage('Deply') {
+      stage('Deploy') {
          steps {
             sleep 3
             echo "Application Deployed"

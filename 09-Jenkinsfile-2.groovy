@@ -4,6 +4,8 @@ pipeline {
    environment {
      // Global Var, but can be overidden by Local var defined in Stage
      color = "Blank"
+     // two secret text credentials are assigned to separate environment variables to AWS
+     // These credentials would have been configured in Jenkins with their respective credential IDs AWS-ACK & AWS-SCK
      AWS_ACCESS_KEY_ID = credentials('AWS-ACK')
      AWS_SECRET_ACCESS_KEY = credentials('AWS-SCK')
    }
